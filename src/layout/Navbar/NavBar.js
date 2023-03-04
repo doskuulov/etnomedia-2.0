@@ -11,7 +11,12 @@ function NavBar() {
 			<div className='bg-main shadow-md sticky top-0 z-20'>
 				<div className='container mx-auto py-6 px-2 lg:grid gap-10 grid-cols-7 justify-between items-center'>
 					<div className='col-span-1 lg:block hidden'>
-						<Link to='/'>etnomedia</Link>
+						<Link to='/'>
+							<img
+								src='	https://etnomedia.kg/assets/images/logo.svg'
+								alt='logo'
+							/>
+						</Link>
 					</div>
 					<div className='col-span-3'>
 						<form className='w-full text-sm bg-dryGray rounded flex-btn gap-4'>
