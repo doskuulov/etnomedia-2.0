@@ -21,7 +21,7 @@ function Banner() {
 				{Movies.slice(0, 6).map((movie, index) => (
 					<SwiperSlide key={index} className='relative rounded overflow-hidden'>
 						<img
-							src={`/images/movies/${movie.image}`}
+							src={`images/movies/${movie.images}`}
 							alt={movie.name}
 							className='w-full h-full object-cover'
 						/>

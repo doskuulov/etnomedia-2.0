@@ -7,6 +7,7 @@ body,
 html {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
+	background: #160128;
 }
 
 input:focus,
@@ -18,7 +19,8 @@ select:focus {
 
 /* Basic class for tailwind */
 .linear-bg {
-	background: linear-gradient(269.82deg, #07091c00 0.17%, #080a1ad6 99.87%);
+	background: #160128;
+	/* background: linear-gradient(269.82deg, #07091c00 0.17%, #080a1ad6 99.87%); */
 }
 
 .hoveres {

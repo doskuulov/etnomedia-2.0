@@ -2,8 +2,10 @@ export const Movies = [
 	{
 		name: 'Army Of  The Dead',
 		desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
-		titleImage: '1a.jpg',
-		image: '1.jpg',
+		titleImage:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/ermen-jyty/poster.jpg?w=320&h=480',
+		image:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/bir-kun-tun/poster.jpg?w=320&h=480',
 		category: 'Western',
 		language: 'English',
 		year: '2022',
@@ -15,8 +17,10 @@ export const Movies = [
 	{
 		name: 'The Conjuring',
 		desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
-		titleImage: '22.jpeg',
-		image: '2.jpeg',
+		titleImage:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/bir-kun-tun/poster.jpg?w=320&h=480',
+		image:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/bir-kun-tun/poster.jpg?w=320&h=480',
 		category: 'Thriller',
 		language: 'Chinese',
 		year: '1999',
@@ -28,8 +32,10 @@ export const Movies = [
 	{
 		name: 'My Favorite Person',
 		desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
-		titleImage: '33.jpg',
-		image: '3.jpg',
+		titleImage:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/bir-kun-tun/poster.jpg?w=320&h=480',
+		image:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/bir-kun-tun/poster.jpg?w=320&h=480',
 		category: 'Adventure',
 		language: 'Korean',
 		year: '2000',
@@ -42,7 +48,8 @@ export const Movies = [
 		name: 'Lets Be a crops',
 		desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
 		titleImage: '44.jpg',
-		image: '4.jpg',
+		image:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/bir-kun-tun/poster.jpg?w=320&h=480',
 		category: 'Musicals',
 		language: 'English',
 		year: '2022',
@@ -55,7 +62,8 @@ export const Movies = [
 		name: 'Below her mouth',
 		desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
 		titleImage: '55.jpg',
-		image: '5.jpg',
+		image:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/bir-kun-tun/poster.jpg?w=320&h=480',
 		category: 'Romantic',
 		language: 'English',
 		year: '1899',
@@ -68,7 +76,8 @@ export const Movies = [
 		name: 'Legend of the seeker',
 		desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
 		titleImage: '66.jpg',
-		image: '6.jpg',
+		image:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/bir-kun-tun/poster.jpg?w=320&h=480',
 		category: 'Horror',
 		language: 'Swahili',
 		year: '2012',
@@ -81,7 +90,8 @@ export const Movies = [
 		name: 'Scarlet Heart',
 		desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
 		titleImage: '77.jpg',
-		image: '7.png',
+		image:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/bir-kun-tun/poster.jpg?w=320&h=480',
 		category: 'Fantasy',
 		language: 'Korean',
 		year: '2005',
@@ -94,7 +104,8 @@ export const Movies = [
 		name: 'The Last Dance',
 		desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
 		titleImage: '88.jpg',
-		image: '8.jpg',
+		image:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/bir-kun-tun/poster.jpg?w=320&h=480',
 		category: 'Sports',
 		language: 'Japanese',
 		year: '1999',
@@ -107,7 +118,8 @@ export const Movies = [
 		name: 'Titanic',
 		desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
 		titleImage: '99.jpg',
-		image: '9.jpg',
+		image:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/bir-kun-tun/poster.jpg?w=320&h=480',
 		category: 'Drama',
 		language: 'Swahili',
 		year: '2012',
@@ -120,7 +132,8 @@ export const Movies = [
 		name: 'About Time of the Dead',
 		desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
 		titleImage: '101.jpg',
-		image: '10.jpg',
+		image:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/bir-kun-tun/poster.jpg?w=320&h=480',
 		category: 'Comedy',
 		language: 'French',
 		year: '2000',
@@ -133,7 +146,8 @@ export const Movies = [
 		name: 'Game of Thrones',
 		desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
 		titleImage: '111.webp',
-		image: '11.jpg',
+		image:
+			'https://etnomedia-cache.cdnvideo.ru/etnomedia/movies/2023/bir-kun-tun/poster.jpg?w=320&h=480',
 		category: 'Action',
 		language: 'Chinese',
 		year: '2012',
