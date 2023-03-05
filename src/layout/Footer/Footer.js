@@ -15,7 +15,7 @@ function Footer() {
 					link: '/about-us',
 				},
 				{
-					name: 'Contact Us',
+					name: 'Контакты',
 					link: '/contact-us',
 				},
 				{
@@ -104,12 +104,12 @@ function Footer() {
 						</Link>
 						<p className='leading-7 text-sm text-border mt-3'>
 							<span>
-								Lorem 196 Andrew Road, Suite 200, <br /> New York, NY 10007
+								Lorem 196 Diskulov Mir, <br /> bishkek, Чуй 107/5
 							</span>
 							<br />
-							<span>Tell: +40 754 661 423</span>
+							<span>Tell: +996 706 868 004</span>
 							<br />
-							<span>Email: netflixo@gmail.com</span>
+							<span>etnomedia2020@gmail.com</span>
 						</p>
 					</div>
 				</div>
