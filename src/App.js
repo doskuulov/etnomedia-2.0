@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import AboutUs from './Screens/AboutUs'
+import ContactUs from './Screens/ContactUs'
 import HomeScreen from './Screens/HomeScreen'
 import NotFound from './Screens/NotFound'
 
@@ -9,6 +10,7 @@ function App() {
 		<Routes>
 			<Route path='/' element={<HomeScreen />} />
 			<Route path='/about-us' element={<AboutUs />} />
+			<Route path='/contact-us' element={<ContactUs />} />
 			<Route path='*' element={<NotFound />} />
 		</Routes>
 	)
