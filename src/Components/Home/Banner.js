@@ -19,7 +19,10 @@ function Banner() {
 				className='w-full xl:h-96 bg-dry lg:h-64 h-48'
 			>
 				{Movies.slice(0, 6).map((movie, index) => (
-					<SwiperSlide key={index} className='relative rounded overflow-hidden'>
+					<SwiperSlide
+						key={index}
+						className=' relative rounded overflow-hidden'
+					>
 						<img
 							src={`images/movies/${movie.images}`}
 							alt={movie.name}
@@ -37,7 +40,7 @@ function Banner() {
 									to={`/movie/${movie.name}`}
 									className='bg-subMain hover:text-main transitions text-white px-8 py-3 rounded font-medium sm:text-sm text-xs'
 								>
-									Watch
+									Watc
 								</Link>
 								<button className='bg-white hover:text-subMain transitions text-white px-4 py-3 rounded text-sm bg-opacity-30'>
 									<FaHeart />

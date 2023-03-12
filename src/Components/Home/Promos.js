@@ -27,7 +27,7 @@ function Promos() {
 				</div>
 				<div>
 					<img
-						src='https://i.ibb.co/KNQ4yTK/IMAGE-7.png'
+						src='https://i.ibb.co/CWfMj3g/IMAGE-2.png'
 						alt='Mobile app'
 						className='w-full object-contain'
 					/>

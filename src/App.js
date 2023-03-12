@@ -1,15 +1,3 @@
-// ********* Netflixo Website is created by Zpunet ******************
-// ********* If you get an error please contact us ******
-// ******** Email:info@zpunet.com *********
-// ********* Website:www.zpunet.com *********
-// ********* Phone:+255 65 535 2744 *********
-// ********* Youtub Channel: https://www.youtube.com/channel/UCOYwYO-LEsrjqBs6xXSfq1w *********
-
-// ******** Support my work with *********
-// ********* https://www.patreon.com/zpunet *********
-// ********* https://www.buymeacoffee.com/zpunet *********
-
-// ********* This is the main component of the website *********
 import Aos from 'aos'
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'

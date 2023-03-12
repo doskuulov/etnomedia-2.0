@@ -4,7 +4,7 @@ import { CgUser } from 'react-icons/cg'
 import { FaSearch, FaHeart } from 'react-icons/fa'
 
 function NavBar() {
-	const hover = 'hover:text-subMain transitions text-white'
+	const hover = 'hover:text-amber-300 transitions text-white'
 	const Hover = ({ isActive }) => (isActive ? 'text-subMain' : hover)
 	return (
 		<>
@@ -19,30 +19,30 @@ function NavBar() {
 						</Link>
 					</div>
 					<div className='col-span-3'>
-						<form className='w-full text-sm bg-dryGray rounded flex-btn gap-4'>
+						<form className='w-full text-sm bg-white rounded flex-btn gap-4'>
 							<button
 								type='submit'
-								className='bg-red-600 w-12 flex-colo h-8 rounded text-white'
+								className='bg-amber-400 w-12 flex-colo h-8 rounded text-white'
 							>
 								<FaSearch />
 							</button>
 							<input
 								type='text'
 								placeholder='Поиск...'
-								className='font-medium placeholder:text-border text-sm w-11/12 h-8 bg-transparent border-none px-2 text-black'
+								className='font-medium rounded-2xl placeholder:text-black text-sm w-11/12 h-8 bg-white border-none px-2 text-black'
 							/>
 						</form>
 					</div>
 					{/*  */}
 					<div className='col-span-3 font-medium text-sm hidden xl:gap-14 2xl:gap-17 justify-between lg:flex xl:justify-end items-center'>
 						<NavLink to='/movies' className={Hover}>
-							Movies
+							Фильмы
 						</NavLink>
 						<NavLink to='/about-us' className={Hover}>
-							About Us
+							О нас
 						</NavLink>
 						<NavLink to='/contact-us' className={Hover}>
-							Contact Us
+							Связаться с нами
 						</NavLink>
 						<NavLink to='/login' className={Hover}>
 							<CgUser className='w-8 h-8' />
