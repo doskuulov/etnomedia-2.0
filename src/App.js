@@ -1,8 +1,9 @@
 import Aos from 'aos'
-import React from 'react'
+import React, { Profiler } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import AboutUs from './Screens/AboutUs'
 import ContactUs from './Screens/ContactUs'
+import Profile from './Screens/Dashboard/Profile'
 import HomeScreen from './Screens/HomeScreen'
 import Login from './Screens/Login'
 import MoviesPage from './Screens/Movies'
@@ -23,6 +24,7 @@ function App() {
 			<Route path='/watch/:id' element={<WatchPage />} />
 			<Route path='/login' element={<Login />} />
 			<Route path='/register' element={<Register />} />
+			<Route path='/profile' element={<Profile />} />
 			<Route path='*' element={<NotFound />} />
 		</Routes>
 	)
