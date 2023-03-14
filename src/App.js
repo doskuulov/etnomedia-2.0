@@ -10,6 +10,7 @@ import MoviesPage from './Screens/Movies'
 import NotFound from './Screens/NotFound'
 import Register from './Screens/Register'
 import SingleMovie from './Screens/SingleMovie'
+import Password from './Screens/Dashboard/Password'
 import WatchPage from './Screens/WatchPage'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 			<Route path='/login' element={<Login />} />
 			<Route path='/register' element={<Register />} />
 			<Route path='/profile' element={<Profile />} />
+			<Route path='/password' element={<Password />} />
 			<Route path='*' element={<NotFound />} />
 		</Routes>
 	)
