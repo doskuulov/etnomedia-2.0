@@ -12,6 +12,7 @@ import Register from './Screens/Register'
 import SingleMovie from './Screens/SingleMovie'
 import Password from './Screens/Dashboard/Password'
 import WatchPage from './Screens/WatchPage'
+import Dashboard from './Screens/Dashboard/Admin/Dashboard'
 import FavoritesMovies from './Screens/Dashboard/FavoritesMovies'
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
 			<Route path='/profile' element={<Profile />} />
 			<Route path='/password' element={<Password />} />
 			<Route path='/favorites' element={<FavoritesMovies />} />
+			<Route path='/dashboard' element={<Dashboard />} />
 			<Route path='*' element={<NotFound />} />
 		</Routes>
 	)
