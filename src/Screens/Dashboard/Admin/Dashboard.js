@@ -28,7 +28,7 @@ function Dashboard() {
 	]
 	return (
 		<SideBar>
-			<h2 className='text-xl font-bold'>Dashboard</h2>
+			<h2 className='text-xl font-bold'>span</h2>
 			<div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-4'>
 				{DashboardData.map((data, index) => (
 					<div
