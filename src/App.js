@@ -15,6 +15,7 @@ import WatchPage from './Screens/WatchPage'
 import Dashboard from './Screens/Dashboard/Admin/Dashboard'
 import FavoritesMovies from './Screens/Dashboard/FavoritesMovies'
 import Categories from './Screens/Dashboard/Admin/Categories'
+import Users from './Screens/Dashboard/Admin/Users'
 
 function App() {
 	Aos.init()
@@ -33,6 +34,7 @@ function App() {
 			<Route path='/favorites' element={<FavoritesMovies />} />
 			<Route path='/dashboard' element={<Dashboard />} />
 			<Route path='/categories' element={<Categories />} />
+			<Route path='/users' element={<Users />} />
 			<Route path='*' element={<NotFound />} />
 		</Routes>
 	)
