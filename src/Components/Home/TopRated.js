@@ -20,7 +20,7 @@ function TopRated() {
 
   return (
     <div className="my-16">
-      <Titles title="Top Rated" Icon={BsBookmarkStarFill} />
+      <Titles title="Самые популярные" Icon={BsBookmarkStarFill} />
       <div className="mt-10">
         <Swiper
           navigation={{ nextEl, prevEl }}

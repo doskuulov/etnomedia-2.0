@@ -1,58 +1,58 @@
 export const CategoriesData = [
-	{
-		_id: '1',
-		title: 'Romantic',
-	},
-	{
-		_id: '2',
-		title: 'Action',
-	},
-	{
-		_id: '3',
-		title: 'Horror',
-	},
-	{
-		_id: '4',
-		title: 'Comedy',
-	},
-	{
-		_id: '5',
-		title: 'Adventure',
-	},
-	{
-		_id: '6',
-		title: 'Sports',
-	},
-	{
-		_id: '7',
-		title: 'Fantasy',
-	},
-	{
-		_id: '8',
-		title: 'Musicals',
-	},
-	{
-		_id: '9',
-		title: 'Drama',
-	},
-	{
-		_id: '10',
-		title: 'Thriller',
-	},
-	{
-		_id: '11',
-		title: 'Western',
-	},
-	{
-		_id: '12',
-		title: 'Historical',
-	},
-	{
-		_id: '13',
-		title: 'Science',
-	},
-	{
-		_id: '14',
-		title: 'Mystery',
-	},
-]
+  {
+    _id: "1",
+    title: "Романтический",
+  },
+  {
+    _id: "2",
+    title: "Действие",
+  },
+  {
+    _id: "3",
+    title: "Ужастик",
+  },
+  {
+    _id: "4",
+    title: "комедия",
+  },
+  {
+    _id: "5",
+    title: "Приключение",
+  },
+  {
+    _id: "6",
+    title: "Виды спорта",
+  },
+  {
+    _id: "7",
+    title: "Фантазия",
+  },
+  {
+    _id: "8",
+    title: "Мюзиклы",
+  },
+  {
+    _id: "9",
+    title: "Драма",
+  },
+  {
+    _id: "10",
+    title: "Триллер",
+  },
+  {
+    _id: "11",
+    title: "вестерн",
+  },
+  {
+    _id: "12",
+    title: "Исторический",
+  },
+  {
+    _id: "13",
+    title: "Наука",
+  },
+  {
+    _id: "14",
+    title: "Тайна",
+  },
+];
