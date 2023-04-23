@@ -1,6 +1,7 @@
 export const Movies = [
   {
     name: "Алтышка",
+    link: "./movie/Алтышка",
     desc: "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.",
     titleImage: "1a.jpg",
     image: "1.jpg",
@@ -14,6 +15,7 @@ export const Movies = [
   },
   {
     name: "БирКунТун",
+    link: "./movie/БирКунТун",
     desc: "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.",
     titleImage: "22.jpg",
     image: "2.jpg",
@@ -27,6 +29,7 @@ export const Movies = [
   },
   {
     name: "Агай",
+    link: "./movie/Агай",
     desc: "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.",
     titleImage: "33.jpg",
     image: "3.jpg",
@@ -40,6 +43,7 @@ export const Movies = [
   },
   {
     name: "Адам Болчу",
+    link: "./movie/Адам Болчу",
     desc: "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.",
     titleImage: "44.jpg",
     image: "4.jpg",
@@ -53,6 +57,7 @@ export const Movies = [
   },
   {
     name: "Эсимде",
+    link: "./movie/Эсимде",
     desc: "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.",
     titleImage: "55.jpg",
     image: "5.jpg",
@@ -66,6 +71,7 @@ export const Movies = [
   },
   {
     name: "Буюрса",
+    link: "./movie/Буюрса",
     desc: "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.",
     titleImage: "66.jpg",
     image: "6.jpg",
@@ -79,6 +85,7 @@ export const Movies = [
   },
   {
     name: "Эрмен Жыты",
+    link: "./movie/Эрмен Жыты",
     desc: "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.",
     titleImage: "77.jpg",
     image: "7.jpg",
@@ -92,6 +99,7 @@ export const Movies = [
   },
   {
     name: "Эшбай",
+    link: "./movie/Эшбай",
     desc: "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.",
     titleImage: "88.jpg",
     image: "8.jpg",
@@ -105,6 +113,7 @@ export const Movies = [
   },
   {
     name: "Здравствуй, ПАПА!",
+    link: "./movie/Здравствуй, ПАПА!",
     desc: "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.",
     titleImage: "9.jpg",
     image: "9.jpg",
@@ -118,6 +127,7 @@ export const Movies = [
   },
   {
     name: "Сагынбай Манасчы",
+    link: "./movie/Сагынбай Манасчы",
     desc: "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.",
     titleImage: "10.jpg",
     image: "10.jpg",
@@ -131,6 +141,7 @@ export const Movies = [
   },
   {
     name: "Баарын кайрадан БАШЬАЙЛЫЧЫ",
+    link: "./movie/Баарын кайрадан БАШЬАЙЛЫЧЫ",
     desc: "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.",
     titleImage: "11.webp",
     image: "11.jpg",
@@ -143,7 +154,8 @@ export const Movies = [
     reviews: 6,
   },
   {
-    name: "Наркобарон ",
+    name: "Наркобарон",
+    link: "./movie/Наркобарон",
     desc: "Наркобарон хочет уйти на покой, но криминальный мир не отпускает. Успешное возвращение Гая Ричи к корням",
     titleImage: "12.webp",
     image: "12.jpg",
@@ -157,6 +169,7 @@ export const Movies = [
   },
   {
     name: "Триггер",
+    link: "./movie/Триггер",
     desc: "Страшная трагедия вынуждает психолога-провокатора вернуться к практике. Напряженная драма с Максимом Матвеевым",
     titleImage: "13.webp",
     image: "13.jpg",
@@ -170,6 +183,7 @@ export const Movies = [
   },
   {
     name: "БЕСПРИНЦИПНЫЕ",
+    link: "./movie/БЕСПРИНЦИПНЫЕ",
     desc: "Смешные истории из жизни очень богатых москвичей. Продолжение комедии по мотивам рассказов Александра Цыпкина",
     titleImage: "14.webp",
     image: "14.jpg",
@@ -183,6 +197,7 @@ export const Movies = [
   },
   {
     name: "МАЖОР В СОЧИ",
+    link: "./movie/МАЖОР В СОЧИ",
     desc: "Как изменить жизнь и защитить ребенка, если привык решать проблемы силой? Душевный экшен с Павлом Прилучным",
     titleImage: "15.webp",
     image: "15.jpg",
@@ -237,3 +252,5 @@ export const UsersData = [
       "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.",
   },
 ];
+
+export default Movies;

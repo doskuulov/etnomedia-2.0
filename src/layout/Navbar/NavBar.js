@@ -1,37 +1,13 @@
 import { Link, NavLink } from "react-router-dom";
 import { CgUser } from "react-icons/cg";
 import { FaSearch, FaHeart } from "react-icons/fa";
-import { useEffect, useRef, useState } from "react";
-import axios from "axios";
+import Search from "./Search";
 
 function NavBar() {
   const hover = "hover:text-amber-300 transitions text-white";
   const Hover = ({ isActive }) => (isActive ? "text-subMain" : hover);
 
-  const [users, setusers] = useState([]);
-  // filter users
-  const [filtered, setfiltered] = useState([]);
-  const [search, setsearch] = useState("");
-
-  const searchRef = useRef();
-
-  const fetchUsers = async () => {
-    const response = await axios.get(
-      "https://jsonplaceholder.typicode.com/users"
-    );
-    setusers(response.data);
-  };
-  useEffect(() => {
-    fetchUsers();
-  }, []);
-
-  useEffect(() => {
-    setfiltered(
-      users.filter((item) =>
-        item.name.toLowerCase().includes(search.toLowerCase())
-      )
-    );
-  }, [search]);
+  // new
 
   return (
     <>
@@ -45,48 +21,7 @@ function NavBar() {
               />
             </Link>
           </div>
-          <div className="col-span-3">
-            <form className="w-full text-sm bg-white rounded flex-btn gap-4">
-              <button
-                type="submit"
-                className="bg-amber-400 w-12 flex-colo h-8 rounded text-white"
-              >
-                <FaSearch />
-              </button>
-              <input
-                type="text"
-                placeholder="Поиск..."
-                className="font-medium rounded-2xl placeholder:text-black text-sm w-11/12 h-8 bg-white border-none px-2 text-black"
-                onChange={(e) => setsearch(e.target.value)}
-                ref={searchRef}
-              />
-            </form>
-
-            {search.length > 0 && (
-              <div className="dropdown">
-                {filtered.length > 0 ? (
-                  filtered.map((item, index) => {
-                    return (
-                      <div
-                        className="card"
-                        key={index}
-                        onClick={(e) => {
-                          searchRef.current.value = item.name;
-                          setsearch("");
-                        }}
-                      >
-                        <p>{item.name}</p>
-                      </div>
-                    );
-                  })
-                ) : (
-                  <p>no match</p>
-                )}
-              </div>
-            )}
-          </div>
-
-          {/*  */}
+          <Search />
           <div className="col-span-3 font-medium text-sm hidden xl:gap-14 2xl:gap-17 justify-between lg:flex xl:justify-end items-center">
             <NavLink to="/movies" className={Hover}>
               Фильмы
